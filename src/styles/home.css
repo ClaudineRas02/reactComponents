@@ -1,0 +1,18 @@
+.home-container {
+    display: flex;
+    align-items: center; /* Aligne la carte et l'image au centre */
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 5px; /* Ajoute un espace entre la carte et l'image */
+    padding: 50px;
+  }
+  
+  .img-home img {
+    width: 100%; /* Assure que l'image prend toute la largeur disponible */
+    max-width: 450px; /* Ajuste la taille max de l'image */
+    height: auto; /* Conserve les proportions */
+    border-radius: 10px; /* Ajoute des bords arrondis si nécessaire */
+  }
+  .img-home img:hover{
+    opacity: 0.9;
+  }
+  
