@@ -10,7 +10,9 @@ function Navbar() {
       <nav>
         <ul>
           <li>
-            <Link to="/">ACCUEIL</Link>
+            <Link onClick={"getData"} to="/">
+              ACCUEIL
+            </Link>
           </li>
           <li>
             <Link to="/About">A propos</Link>
